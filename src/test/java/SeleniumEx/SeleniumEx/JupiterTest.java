@@ -31,8 +31,8 @@ public class JupiterTest {
     /*########################### IMPORTANT ######################*/
     /*## Change this, according to your own OS and location of driver(s) ##*/    
     /*############################################################*/    
-    System.setProperty("webdriver.gecko.driver", "C:\\Users\\przyg\\Desktop\\drivers\\geckodriver.exe");
-    System.setProperty("webdriver.chrome.driver","C:\\Users\\przyg\\Desktop\\drivers\\chromedriver.exe");
+    System.setProperty("webdriver.gecko.driver", "C:\\Program Files (x86)\\Eclipse\\Workspace\\SeleniumEx\\drivers\\geckodriver.exe");
+    System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Eclipse\\Workspace\\SeleniumEx\\drivers\\chromedriver.exe");
     
     //Reset Database
     com.jayway.restassured.RestAssured.given().get("http://localhost:3000/reset");
