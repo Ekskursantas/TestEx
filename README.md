@@ -2,6 +2,8 @@
 
 ## Test
 ![Selenium Tests](https://github.com/Ekskursantas/TestEx/blob/master/tests.png?raw=true)
+
+
 The Source Code for the test can be found [HERE](https://github.com/Ekskursantas/TestEx/blob/master/src/test/java/SeleniumEx/SeleniumEx/JupiterTest.java).
 - **Discuss Pros and Cons with manual versus automated tests** 
   - *Time consumption is very different when testing UI manually and with automated test. In most cases if not all the automated testing will beat tesing manually. The more complex the code the more difference we can see between automated and manual testing. Especially, if we want to repeat the same test several times by just manipulating the data a little bit.*
