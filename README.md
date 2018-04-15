@@ -15,6 +15,8 @@ The Source Code for the test can be found [HERE](https://github.com/Ekskursantas
 - **Discuss some of the problems with automated GUI tests and what makes such tests "vulnerable"** 
   - *Most obvious and common reason would be that the GUI is very often changed and never stays the same. Meaning that some changes might totally destroy the test cases. Just by trying to optimize the UI for different devices can already ruin the test cases. They might still work if we test on PC, but when applying the same test on a mobile device it might be a fatal flaw.*
 - **Selenium Test** 
+
+
 First we need to locate and create an instance of a webdriver. As I am a chrome user and Chrome is installed on a device. I went with ChromeDriver.
 ```java
 System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\Eclipse\\Workspace\\SeleniumEx\\drivers\\chromedriver.exe");
