@@ -38,6 +38,7 @@ public class JupiterTest {
     com.jayway.restassured.RestAssured.given().get("http://localhost:3000/reset");
     driver = new ChromeDriver();
     driver.get("http://localhost:3000");
+    (new WebDriverWait(driver, 10)).until((ExpectedCondition<Boolean>) d -> d.getTitle().toLowerCase().startsWith("document"));
   }
 
   @AfterClass
